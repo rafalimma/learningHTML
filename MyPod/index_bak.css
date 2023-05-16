@@ -1,0 +1,18 @@
+body{
+	background-color: #eaf3da;
+}
+
+h1{
+	text-decoration: underline;
+	font-size: 36px;
+}
+
+h1, h2{
+	color: Sienna;
+	font-family: verdana;
+}
+
+p{
+	font-size: 20px;
+	font-family: georgia;
+}

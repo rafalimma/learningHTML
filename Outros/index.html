@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-br"
+
+<head>
+	<meta charset="utf-8">
+	<title>Formulário de Preenchimento</title>
+</head>
+
+<body>
+	<p> <h1> Formulário para Preenchimento de Inscrição</h1>  </p>
+
+<hr>
+</body>
+
+<body>
+	<form action="processa.php" method="post">
+		<p> <h2> Seu Nome Completo: </h2> </p> 
+		<input type="text" name="Digite Aqui" placeholder="Digite Aqui"> <br>
+		<p> <h2> Seu e-mail:</h2> </p>
+		<input type="text" name="Digite Aqui" placeholder="Digite Aqui"> <br>
+		<p> <h2> Sua Senha: </h2> </p>
+		<input type="password" name="senha" placeholder="Senha"> <br>
+		<p> <h2> Sua Idade: </h2> </p>
+		<select name="selecionar">
+			<option value="1">15 Anos</option>
+			<option value="2">16 Anos</option>
+			<option value="3">17 Anos</option>
+			<option value="4">18 Anos</option>
+		</select>
+			<p> <h2> Seu Sexo: </h2> </p>
+			<input type="radio" name="radio1" value="1">Masculino <br>
+			<input type="radio" name="radio1" value="2">Feminino <br>
+			<input type="radio" name="radio1" value="3">Prefiro não informar <br>
+			<p> <h2> Termos de uso </h2> </p>
+			<input type="checkbox" name="ck1" value="1"checked>Aceito todos os termos de uso <br>
+			<input type="checkbox" name="ck1" value="2">Aceito receber notificações e e-mails diáriamente <br>
+			<input type="checkbox" name="ck1" value="3">Todas as informações dadas nesse formulário estão sendo dadas por minha conta e risco<br>
+			
+			<br>
+
+			<input type="submit" name="submit" value="Enviar">
