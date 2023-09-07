@@ -13,7 +13,7 @@ body {
 
 }
 .header {
-    position: fixed; /*elemento fluyua na página, não é afetado por outros elementos */
+    position: relative; /*elemento fluyua na página, não é afetado por outros elementos */
     top: 0;
     left: 0;
     width: 100%;
@@ -74,19 +74,28 @@ img {
     color: rgb(51, 145, 51);
     transform: rotate(-45deg);
 }
-.home{
-    width: 100%;
-    height: 100vh;
+.fundo{
+    max-width: 1480px;
+    max-height: 650px;
+}
+
+.home {
+    width: 80%;
+    height: 80vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px 8% 0;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin: auto;
 }
 .home-content {
-    max-width: 630px;
+    width: 700px;
+    height: 400px;
 }
 .home-content h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.2;
 }
 
@@ -95,35 +104,49 @@ img {
     color: rgb(51, 145, 51);
 }
 .home-content p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 15px 0 30px;
 }
-
 .home-img img{
     right: -10%;
     position: relative;
     width: 100%;
     height: 560px;
     padding-bottom: 120px;
+}
+.home-content img{
+    align-items: center;
+    display: flex;
 
+    width: 250px;
+    height: 280px;
 }
 
-.caixita{
-    width: 180px;
-    height: 180px; /* 100% da altura da viewport */
+.caixa{
+    height: 500px; /* 100% da altura da viewport */
+    background-color: green;
+}
+.caixa h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.caixita1{
+    width: 50%; /* Largura da caixinha */
+    max-width: 200px; /* Largura máxima da caixinha */
+    padding: 30px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    padding: 10px;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    position: fixed;
-    left: 10;
-    top: 72%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    margin-top: 50px;
 }
-
-.caixita h1{
-    margin: 0;
+.caixita1 h3{
+    margin-bottom: 50px;
+}
+.caixita1 img{
+    width: 100px;
+    height: auto;
+    margin-top: -50px;
 }
