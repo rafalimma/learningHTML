@@ -123,30 +123,130 @@ img {
 }
 
 .caixa{
-    height: 500px; /* 100% da altura da viewport */
+    height: 800px; /* 100% da altura da viewport */
     background-color: green;
 }
 .caixa h1{
     text-align: center;
     padding-top: 20px;
 }
-.caixita1{
+.caixinha{
     width: 50%; /* Largura da caixinha */
     max-width: 200px; /* Largura máxima da caixinha */
     padding: 30px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 14px;
     position: absolute;
     text-align: center;
-    left: 12%;
-    margin-top: 50px;
+    left: 9%;
+    margin-top: 60px;
 }
-.caixita1 h3{
+.caixinha:hover{
+    color: green
+}
+.caixinha h3{
     margin-bottom: 50px;
 }
-.caixita1 img{
+.caixinha img{
     width: 100px;
     height: auto;
     margin-top: -50px;
 }
+.caixinha2{
+    width: 50%; /* Largura da caixinha */
+    max-width: 200px; /* Largura máxima da caixinha */
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    position: absolute;
+    text-align: center;
+    left: 32%;
+    margin-top: 60px;
+}
+.caixinha2:hover{
+    color: green
+}   
+.caixinha2 img{
+    width: 100px;
+    height: auto;
+    padding-top: 26px;
+}
+.caixinha3{
+    width: 50%; /* Largura da caixinha */
+    max-width: 200px; /* Largura máxima da caixinha */
+    padding: 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    position: absolute;
+    text-align: center;
+    left: 55%;
+    margin-top: 60px;
+}
+.caixinha3:hover{
+    color: green
+}
+.caixinha3 img{
+    width: 110px;
+    height: auto;
+    padding-top: 26px;
+}
+.caixinha4{
+    width: 50%; /* Largura da caixinha */
+    max-width: 200px; /* Largura máxima da caixinha */
+    padding: 25px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    position: absolute;
+    text-align: center;
+    left: 78%;
+    margin-top: 60px;
+}
+.caixinha4:hover{
+    color: green
+}
+.caixinha4 img{
+    width: 100px;
+    height: auto;
+    padding-top: 26px;
+}
+.caixinha5{
+    width: 50%; /* Largura da caixinha */
+    max-width: 200px; /* Largura máxima da caixinha */
+    padding: 25px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    position: absolute;
+    text-align: center;
+    left: 32%;
+    margin-top: 390px;
+}
+.caixinha5 img{
+    width: 80px;
+    height: auto;
+    padding-top: 20px;
+}
+.caixinha6{
+    width: 50%; /* Largura da caixinha */
+    max-width: 200px; /* Largura máxima da caixinha */
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    position: absolute;
+    text-align: center;
+    left: 55%;
+    margin-top: 390px;
+}
+.caixinha6 img{
+    width: 85px;
+    height: auto;
+}
+#footer{
+    margin-top: 610px;
+}
+
