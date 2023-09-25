@@ -123,7 +123,7 @@ img {
 }
 
 .caixa{
-    height: 800px; /* 100% da altura da viewport */
+    height: 880px; /* 100% da altura da viewport */
     background-color: green;
 }
 .caixa h1{
@@ -249,4 +249,21 @@ img {
 #footer{
     margin-top: 610px;
 }
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    width: 260px;
+    border-radius: 20px;
+    padding: 13px;
+    cursor: pointer;
+    background-color: aquamarine;
+    font-size: 16px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
 
